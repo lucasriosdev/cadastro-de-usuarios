@@ -1,7 +1,6 @@
 function App() {
+  const myText = "LucasRios";
 
-    const myText = "LucasRios"
-  
   return (
     <div>
       <h1>{myText}</h1>
