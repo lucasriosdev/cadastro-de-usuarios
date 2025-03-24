@@ -1,16 +1,7 @@
 import { useRef } from "react";
 import api from "../../services/api";
 
-import {
-  Title,
-  Container,
-  TopBackground,
-  Form,
-  ContainerInputs,
-  Input,
-  Button,
-  InputLabel,
-} from "./styles";
+import { Title, Container, TopBackground, Form, ContainerInputs, Input, Button, InputLabel } from "./styles";
 
 import UsersImage from "../../assets/users.png";
 
@@ -48,11 +39,7 @@ function Home() {
             <InputLabel>
               Idade<span> *</span>
             </InputLabel>
-            <Input
-              type="number"
-              placeholder="Idade do Usuário"
-              ref={inputAge}
-            />
+            <Input type="number" placeholder="Idade do Usuário" ref={inputAge} />
           </div>
         </ContainerInputs>
 
@@ -60,11 +47,7 @@ function Home() {
           <InputLabel>
             E-mail<span> *</span>
           </InputLabel>
-          <Input
-            type="email"
-            placeholder="E-mail do Usuário"
-            ref={inputEmail}
-          />
+          <Input type="email" placeholder="E-mail do Usuário" ref={inputEmail} />
         </div>
 
         <Button type="button" onClick={registerNewUser}>
