@@ -14,11 +14,16 @@ border:${(props) => (props.theme === 'primary' ? 'none' : '1px solid #fff')};
     border-radius: 30px;  
 
     &:hover{
-        opacity: 0.8;
+        opacity: ${props => props.theme === "primary" ? "0.8" : "1"};
+    background: ${props => props.theme !== "primary" ? "#fff" : "linear-gradient(180deg, #FE7E5D 0%, #FF6378 100%)"};
+    color: ${props => props.theme !== "primary" ? "blue" : "#fff"};
+
     }
 
     &:active{
-        opacity: 0.5;
+        opacity: ${props => props.theme === "primary" ? "0.5" : "1"};
+    color: ${props => props.theme !== "primary" ? "green" : "#fff"};
+    background: ${props => props.theme !== "primary" ? "#fff" : "linear-gradient(180deg, #FE7E5D 0%, #FF6378 100%)"};
     }
 
 
