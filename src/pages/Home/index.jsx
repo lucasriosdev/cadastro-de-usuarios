@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import api from "../../services/api";
-
+import { Button as DefaultButton } from "../../components/Button/styles";
 import { Title, Container, Form, ContainerInputs, Input, Button, InputLabel } from "./styles";
 import TopBackground from "../../components/TopBackground";
 
@@ -47,12 +47,12 @@ function Home() {
           <Input type="email" placeholder="E-mail do Usuário" ref={inputEmail} />
         </div>
 
-        <Button type="button" onClick={registerNewUser} theme="primary">
+        <DefaultButton type="button" onClick={registerNewUser} theme="primary">
           Cadastrar Usuário
-        </Button>
+        </DefaultButton>
       </Form>
 
-      <Button type="button">Ver Lista de Usuários</Button>
+      <DefaultButton type="button">Ver Lista de Usuários</DefaultButton>
     </Container>
   );
 }
