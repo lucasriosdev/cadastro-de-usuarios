@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import api from "../../services/api";
+import { useNavigate } from "react-router-dom";
 import { Button as DefaultButton } from "../../components/Button/styles";
 import { Title, Container, Form, ContainerInputs, Input, Button, InputLabel } from "./styles";
 import TopBackground from "../../components/TopBackground";
@@ -8,6 +9,8 @@ function Home() {
   const inputName = useRef();
   const inputAge = useRef();
   const inputEmail = useRef();
+
+  const navigate = useNavigate();
 
   async function registerNewUser() {
     await api.post("/usuarios", {
@@ -52,7 +55,9 @@ function Home() {
         </DefaultButton>
       </Form>
 
-      <DefaultButton type="button">Ver Lista de Usuários</DefaultButton>
+      <DefaultButton type="button" onClick={() => navigate("/lista-de-usuarios")}>
+        Ver Lista de Usuários
+      </DefaultButton>
     </Container>
   );
 }
