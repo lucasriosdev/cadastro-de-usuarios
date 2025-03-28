@@ -26,7 +26,7 @@ color: #fff;
 export const ContainerUsers = styled.div`
 
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
 gap: 20px;
 margin: 40px 0 ;
 
