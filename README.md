@@ -1,12 +1,45 @@
-# React + Vite
+# Cadastro de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto completo para cadastro de usuários, desenvolvido utilizando **React**, **JavaScript** e **CSS3** no front-end e **Node.js**, **Express**, **Prisma** e **MongoDB** no back-end. O sistema permite cadastrar, listar e deletar usuários, com integração total ao banco de dados (API).
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔹 **Front-end**
+- **React**: Para a interface interativa e responsiva.
+- **JavaScript**: Para lógica e funcionalidades.
+- **CSS3**: Para estilização.
+- **Avatar Placeholder**: Para gerar avatares aleatórios.
 
-## Expanding the ESLint configuration
+### 🔹 **Back-end**
+- **Node.js** e **Express**: Para criação da API.
+- **Prisma**: Como ORM para gerenciamento do banco de dados.
+- **MongoDB**: Como banco de dados.
+- **CORS**: Para permitir a comunicação entre front-end e back-end.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Funcionalidades
+
+- **Cadastro de usuários** com avatar aleatório.
+- **Listagem de usuários** cadastrados.
+- **Exclusão de usuários** integrada ao banco de dados.
+- **Integração entre front-end e back-end** via API.
+
+## 📸 Imagens do Projeto
+
+![Front-end - Tela](Imagens/imagem1.png)
+
+![Front-end - Lista de usuarios](Imagens/imagem02.png)
+
+## 📦 Como Executar o Projeto
+
+### 🔹 **Clonando o Repositório**
+git clone <https://github.com/lucasriosdev/cadastro-de-usuarios.git>
+cd cadastro-de-usuarios
+### 🔹 **Configurando o Back-end**
+cd backend
+npm install
+npx prisma migrate dev
+npm start
+### 🔹 **Configurando o Front-end**
+cd frontend
+npm install
+npm run dev
