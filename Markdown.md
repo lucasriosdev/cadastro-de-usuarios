@@ -25,7 +25,7 @@ Este é um projeto completo para cadastro de usuários, desenvolvido utilizando 
 
 ## 📸 Imagens do Projeto
 
-![Front-end - Tela](Imagens/imagem01foto.png)
+![Front-end - Tela](Imagens/imagem1.png)
 
 ![Front-end - Lista de usuarios](Imagens/imagem02.png)
 
