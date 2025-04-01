@@ -29,7 +29,7 @@ Este é um projeto completo para cadastro de usuários, desenvolvido utilizando 
 ## 📦 Como Executar o Projeto
 
 ### 🔹 **Clonando o Repositório**
-git clone <URL_DO_REPOSITORIO>
+git clone <https://github.com/lucasriosdev/cadastro-de-usuarios.git>
 cd cadastro-de-usuarios
 ### 🔹 **Configurando o Back-end**
 cd backend
