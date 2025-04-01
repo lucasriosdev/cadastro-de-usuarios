@@ -24,7 +24,8 @@ Este é um projeto completo para cadastro de usuários, desenvolvido utilizando 
 - **Integração entre front-end e back-end** via API.
 
 ## 📸 Imagens do Projeto
-
+![Front-end - Tela](imagens1/foto.jpg)
+![Front-end - Lista de usuarios](imagens02/foto.png)
 
 ## 📦 Como Executar o Projeto
 
