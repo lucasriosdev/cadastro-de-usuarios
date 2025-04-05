@@ -25,9 +25,11 @@ Este é um projeto completo para cadastro de usuários, desenvolvido utilizando 
 
 ## 📸 Imagens do Projeto
 
-![Front-end - Tela](Imagens/imagem1.png)
+TELA 1 - TELA DE CADASTRO DE USUÁRIOS
+![Front-end - Tela](https://github.com/lucasriosdev/cadastro-de-usuarios/blob/main/apps/web/img/imagem1.png?raw=true)
 
-![Front-end - Lista de usuarios](Imagens/imagem02.png)
+TELA 2 - TELA DE LISTAGEM DE USUÁRIOS
+![Front-end - Lista de usuarios](https://github.com/lucasriosdev/cadastro-de-usuarios/blob/main/apps/web/img/imagem02.png?raw=true)
 
 ## 📦 Como Executar o Projeto
 
