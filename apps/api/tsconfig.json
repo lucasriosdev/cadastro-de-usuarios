@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"target": "ES2022",
+		"sourceMap": true,
+		"outDir": "dist",
+		"strict": true
+	},
+	"extends": "ts-node/node16/tsconfig.json",
+	"include": ["**/*", "index.ts"]
+}

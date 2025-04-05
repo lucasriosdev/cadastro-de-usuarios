@@ -1,0 +1,6 @@
+{
+	"delay": 1000,
+	"ignore": [".git", "node_modules/**/node_modules"],
+	"verbose": true,
+	"watch": ["**/*.{ts,js,json}"]
+}
